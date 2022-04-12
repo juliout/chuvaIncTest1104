@@ -1,5 +1,4 @@
 .Aside {
-    
     max-width: 220px;
     width: 20%;
     min-width: 90px;
@@ -25,7 +24,6 @@
 }
 
 .slacaLogo {
-    
     width: 100%;
     max-height: 258px;
     height: auto;
@@ -42,7 +40,6 @@
 }
 
 .slacaUl li {
-    
     max-width: 220px;
     width: 100%;
     height: 33px;
@@ -60,8 +57,7 @@
 }
 
 #main {
-    width: 100%;
-    
+    width: 100%;    
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -69,8 +65,7 @@
     justify-content: center;
 }
 
-header {
-    
+header {    
     width: 100%;
     height: 68px;
     background: #FDF1EB;
@@ -108,6 +103,7 @@ header {
     background-position-y: 5px;
     padding-left: 31px;
 }
+
 .perfil {
     width: 202;
     height: 34px;
@@ -115,6 +111,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .emailPerfil {
     text-align: end;
 } 
@@ -133,12 +130,12 @@ header {
     width: 48px; height: 30px;
     display: flex;
     justify-content: center;
-    
-
 }
+
 .divImgPerfil img {
     border-radius: 70px;
 }
+
 
 .divImgPerfil p {
     color: white;
@@ -158,12 +155,9 @@ header {
 
     border-radius: 50px;
     margin-left: 20px;
-    
 }
 
 .container {
-    
-    
     max-width: 1058px;
     width: 95%;
     min-height: 200px;
@@ -174,8 +168,7 @@ header {
     align-items: center;
 }
 
-.containerLeft {
-    
+.containerLeft { 
     max-width: 786px;
     width: 74%;
     margin-right: 30px;
@@ -196,19 +189,20 @@ header {
 .videoBg {
     width: 100%;
     height: 439px;
-
 }
 
 .imagemVideo {
     width: 100%;
     height: 100%;
 }
+
 .divText-absolut {
     position: absolute;
     max-width: 783px;
     width: 58.5%;
     height: 439px;
     padding: 35px 35px;
+   
     background: rgba(141, 53, 6, 0.5);
 }
 .divText-title {
@@ -219,15 +213,15 @@ header {
     line-height: 25px;
     margin-bottom: 190px;
 }
-.divText-nameDiv {
 
+.divText-nameDiv {
     width: 75%;
     height: 100px;
     
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
+
 .divText-nameDiv img {
     width: 84px;
     height: 86px;
@@ -236,12 +230,14 @@ header {
     padding: 2px;
     margin-right: 17px;
 }
+
 .divText-names h1 {
     font-size: 34px;
     font-weight: 900;
     line-height: 25px;
     color: white;
 }
+
 .divText-names h2 {
     font-size: 20px;
     font-weight: 900;
@@ -258,11 +254,13 @@ header {
     
     text-align: right;
 }
+
 .iconsRight {
     display: flex;
     justify-content: end;
     margin-bottom: 12px;
 }
+
 .btnDownload {
     width: 120px;
     height: 31px;
@@ -277,7 +275,6 @@ header {
     justify-content: space-evenly;
     align-items: center;
     border: none;
-
 }
 
 .btnPadrao { 
@@ -300,6 +297,7 @@ header {
     color: #ED7839;
     margin-bottom: 10px;
 }
+
 .detalhes {
     width: 100%;
     min-width: 150px;
@@ -309,6 +307,7 @@ header {
     border: 1px solid #ECECEC;
     border-radius: 3px;
 }
+
 .detalhes h1 {
     height: 42px;
     padding: 10px 15px ;
@@ -318,8 +317,8 @@ header {
     font-weight: 500;
     color: #4E4E4E;
 }
+
 .detalhesSpan {
-    
     max-width: 212px;
     width: 90%;
     height: 364px;
@@ -331,12 +330,13 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     overflow-y: scroll;
-
 }
+
 .detalhesSpan::-webkit-scrollbar {
     width: 5px;
     background-color: #E7E7E7;
 }
+
 .detalhesSpan::-webkit-scrollbar-tumb {
     background-color: #BFBFBF;
 }
@@ -345,7 +345,6 @@ header {
     font-weight: 400;
     font-size: 12px;
     color: #5C5C5C;
-
 }
 
 .resume {
@@ -364,15 +363,16 @@ header {
     font-size: 20px;
     border-bottom: 1px #ECECEC solid;
 }
+
 .textResume{
     
     min-height: 150px;
     height: auto;
     padding: 17px;
     font-size: 14px;
-    line-height: 22px;
-   
+    line-height: 22px;  
 }
+
 .resume p {
 
     margin-bottom: 15px;
@@ -402,25 +402,26 @@ header {
     border-bottom: 1px #ECECEC solid;
 
 }
+
 .boxDisc h2 {
     margin: 15px;
     font-size: 18px;
     color: #ED7839;
     font-weight: 700;
 }
+
 .divIconsDisc {
     width: 250px;
     height: 50px;
     
     display: flex;
     margin: 15px 0;
-    justify-content: space-between;   
-    
+    justify-content: space-between;      
 }
+
 .boxDisc p {
     width: 626px;
     margin: 7px 0;
-    
 }
 
 .containerDiscurssoes {
@@ -428,6 +429,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
 .containerDiscurssoes p {
     width: 626px;
     height: 40px;
@@ -453,9 +455,11 @@ header {
     color:  white;
     transform: translate( 0, 16px);
 }
+
 .btnBig {
     width: 235px;
 }
+
 .containerSugestion {
     width: 100%; 
     
@@ -463,20 +467,23 @@ header {
     flex-direction: column;
     padding-bottom: 15px;
 }
+
 .formSugestions {
     width: 100%;
     height: auto;
 }
+
 .titleSugestion {
     font-size: 14px;
     font-weight: 400;
     margin: 15px auto;
 }
+
 .boxAssunto {
-    
     width: 100%;
     margin-top: 7px;
 }
+
 .boxAssunto input{
     width: 100%;
     height: 39px;
@@ -496,6 +503,7 @@ header {
     margin-top: 10px;
     width: 100%;
 }
+
 .boxConteudo input {
     width: 100%;
     height: 82px;
@@ -544,7 +552,6 @@ header {
 
     color: white;
     font-size: 15px;
-
 }
 
 .containerFinished {
@@ -552,6 +559,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
 .containerFinished a {
     width: 626px;
     height: 40px;
@@ -559,9 +567,11 @@ header {
     color: #F48F44;
     
 }
+
 .containerFinished a:hover {
     text-decoration: underline;
 }
+
 .commentSucess {
     height: 50px;
     margin: 30px 0;
@@ -578,7 +588,8 @@ header {
     justify-content: center;
     align-items: center;
     padding: 10px;
-}   
+} 
+
 .awaitAccept {
     width: 73%;
     max-width: 983px;
@@ -594,10 +605,12 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 .awaitAccept img {
     width: 23px;
     height: 25px;
 }
+
 .awaitAccept span {
     font-size: 16px;
     font-weight: 700;
@@ -610,8 +623,8 @@ header {
     font-weight: 400;
     color: #ED7839;
     text-decoration: underline;
-
 }
+
 .comment {
     max-width: 1028px;
     width: 95%;
@@ -630,6 +643,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .contentComment {
     width: 100%;
     height: 100%;
@@ -646,10 +660,12 @@ header {
     color: #ED7839;
     
 }
+
 .commentTitle p {
     font-size: 12px;
     font-weight: 500;
-    color: #5C5C5C;}
+    color: #5C5C5C;
+}
 
 .textComment {
     width: 90%;
@@ -661,6 +677,7 @@ header {
     color: #4d4d4d;
     margin: 5px 0;
 }
+
 .likedDiv {
     width: 160px;
     height: 25px;
@@ -671,6 +688,7 @@ header {
     
 
 }
+
 .likedDiv button {
     width: 27px;
     height: 19px;
@@ -683,10 +701,12 @@ header {
     justify-content: center;
     cursor: pointer;
 }
+
 .containerAnswer {
     width: 100%;
     height: auto;
 }
+
 .boxAnswer {
     width: 100%;
     min-height: 131px;
@@ -696,6 +716,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .answerTitleDiv {
     height: 20px;
     width: 97%;
@@ -703,23 +724,28 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 .answerTitleDiv h1 {
     font-size: 12px;
     font-weight: 700px;
     color: #5C5C5C
 }
+
 .answerTitleDiv span {
     font-size: 14px;
     font-weight: 700;
     color: #ED7839;
 }
+
 .answerTitleDiv div {
     display: flex;
     align-items: center;
 }
+
 .answerTitleDiv img {
     margin-left: 25px;
 }
+
 .textAnswer {
     width: 97%;
     min-height: 60px;
@@ -727,11 +753,12 @@ header {
 
     font-size: 14px;
     font-weight: 400;
-
 }
+
 .authorText {
     background: #F8F8F8;
 }
+
 .coAuthorText {
     background: #F8F8F8;
 }
@@ -745,6 +772,190 @@ footer {
    margin-top: 40px;
    width: 95%;
 }
+
 footer img {
     width: 95%;
+}
+
+/* BreakPoints */
+
+@media (max-width:1325px) {
+
+    aside {
+        width: 200px;
+    }
+
+    .slacaUl li {
+        font-size: 80%;
+    }
+
+    .titleSlaca {
+        font-size: 25px;
+    }
+    
+    .titleHeader h1 {
+        font-size: 18px;
+        font-weight: 700;
+    } 
+
+    .titleHeader h2 {
+        font-size: 11px
+    }
+
+    .containerLeft-title {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .awaitAccept {
+        width: 73.5%;
+    }
+}
+
+@media (max-width: 1265px) {
+    .divText-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1173px) {
+    .language {
+        background-position-x: 0px;
+        background-position-y: 2.5px;
+    }
+
+    .slacaUl li {
+        font-size: 60%;
+    }
+
+    .containerRight h2 {
+        font-size: 10px;
+    }
+    
+    .containerLeft-title {
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    .divText-names h1{
+        font-size: 25px;
+    }
+
+    .divText-names h2{
+        font-size: 25px;
+    }
+
+    .titleSlaca {
+        font-size: 20px;
+    }
+
+    .containerDiscurssoes p {
+        font-size: 70%;
+        width: 60%;
+    }
+
+    .imagemVideo  { 
+        height: 80%;
+    }
+
+    .divText-absolut {
+        width: 58.2%;
+        height: 350px;
+    }
+
+    .language {
+        width: 80px;
+        height: 30px;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+
+    .divText-title {
+        height: 40px;
+        margin-bottom: 130px;
+        font-size: 17px;
+    }
+
+    .divText-names h1 {
+        font-size: 20px;
+    }
+
+    .divText-names h2 {
+        font-size: 14px;
+    }
+
+    .container {
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .detalhes {
+        height: 350px;
+    }
+
+    .detalhesSpan {
+        height: 270px;
+    }
+
+    .containerRight {
+        height: 400px;
+    }
+
+    .detalhes h1 {
+        height: 30px;
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+
+    .videoBg {
+        height: 400px;
+    }
+
+    .imagemVideo {
+        height: 350px;
+    }
+
+}
+@media (max-width: 1000px) {
+    .titleSlaca {
+        height: 75px;
+    }
+
+    header {
+        height: 75px;
+    }
+    
+    .titleHeader h1 {
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .detalhesSpan {
+        width: 90%;
+        padding: 0;
+    }
+
+    .awaitAccept {
+        height: 17.5%;
+    }
+    
+    .commentSucess {
+        font-size: 12px;
+        padding: 20px;
+    }
+    
+    .divText-absolut {
+        width: 57.4%;
+    }
+}
+
+@media (max-width: 758px) {
+    .awaitAccept {
+        min-width: 543.2px;
+    }
+    
+    .divText-absolut {
+        width: 56.8%;
+    }
 }
