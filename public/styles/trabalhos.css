@@ -718,6 +718,10 @@ header {
     padding: 10px;
 }
 
+.boxAnswer:first-child {
+    margin-top: 10px;
+}
+
 .answerTitleDiv {
     height: 20px;
     width: 97%;
