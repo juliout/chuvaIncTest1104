@@ -1,0 +1,478 @@
+.Aside {
+    
+    width: 220px;
+    min-height: 100vh;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.titleSlaca {
+    height: 68px;
+    width: 100%;
+
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(255,179,84);
+    background: linear-gradient(180deg, rgba(255,179,84,1) 0%, rgba(238,122,58,1) 100%);
+}
+
+.slacaLogo {
+    
+    width: 100%;
+    height: 258px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slacaLogo img {
+    max-width: 220px;
+    width: 100%;
+    max-height: 250px;
+}
+
+.slacaUl li {
+    
+    width: 220px;
+    height: 33px;
+
+    font-size: 15px;
+    color: #725C5C;
+    font-weight: 500;
+    
+
+    display: flex;
+    align-items: center;
+    padding-left: 24px; 
+    
+    border-bottom: 2px solid rgb(231, 231, 231);
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    min-width: 1146px;
+    width: 100%;
+    height: 68px;
+    background: #FDF1EB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titleHeader {
+    width: 643px;
+}
+
+.titleHeader h1 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.titleHeader h2 {
+    font-size: 14px;
+}
+
+.languageImg {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.language {
+    width: 97px;
+    height: 34px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    background-color: transparent;
+    
+    padding-left: 31px;
+}
+.perfil {
+    width: 202;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emailPerfil {
+    text-align: end;
+} 
+
+.perfil span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.perfil p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.divImgPerfil {
+    width: 48px; height: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.divImgPerfil img {
+    border-radius: 70px;
+}
+
+.divImgPerfil p {
+    color: white;
+    position: absolute;
+
+    width: 14px;
+    height: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F85959;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    border-radius: 50px;
+    margin-left: 20px;
+    
+}
+
+.container {
+    
+    
+    width: 1058px;
+    min-height: 489px;
+    height: auto;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerLeft {
+    width: 786px;
+}
+
+.containerLeft-title {
+    color: #ED7839;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 10%;
+    line-height: 25px;
+    min-width: 786px;
+    
+    margin-bottom: 19px;
+}
+
+.videoBg {
+    width: 100%;
+    height: 439px;
+
+}
+.divText-absolut {
+    position: absolute;
+    width: 783px;
+    height: 439px;
+    padding: 35px 35px;
+    background: rgba(141, 53, 6, 0.5);
+}
+.divText-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    line-height: 25px;
+    margin-bottom: 215px;
+}
+.divText-nameDiv {
+
+    width: 75%;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    
+}
+.divText-nameDiv img {
+    width: 84px;
+    height: 86px;
+    border: 2px solid #ED7839;
+    border-radius: 50px;
+    padding: 2px;
+    margin-right: 17px;
+}
+.divText-names h1 {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 25px;
+    color: white;
+}
+.divText-names h2 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    color: white;
+    margin-top: 7px;
+}
+
+.containerRight {
+    width: 242px;
+    height: 512px;
+    
+    text-align: right;
+}
+.iconsRight {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 12px;
+}
+.btnDownload {
+    width: 120px;
+    height: 31px;
+    background: #ED7839;
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+
+}
+
+.btnPadrao { 
+    width: 43px;
+    height: 31px;
+    background: #ED7839;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-left: 5px;
+}
+
+.containerRight h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 7%;
+    color: #ED7839;
+    margin-bottom: 10px;
+}
+.detalhes {
+    width: 100%;
+    height: 439px;
+    text-align: left;
+
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+}
+.detalhes h1 {
+    height: 42px;
+    padding: 10px 15px ;
+    border-bottom: 1px solid #ECECEC;
+    background: #FDF1EB;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4E4E4E;
+}
+.detalhesSpan {
+    
+    width: 212px;
+    height: 364px;
+    margin: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+
+}
+.detalhesSpan::-webkit-scrollbar {
+    width: 5px;
+    background-color: #E7E7E7;
+}
+.detalhesSpan::-webkit-scrollbar-tumb {
+    background-color: #BFBFBF;
+}
+
+.detalhesSpan p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #5C5C5C;
+
+}
+
+.resume {
+    width: 1058px;    
+    border: 1px #ECECEC solid;
+    margin: 30px 0;
+}
+
+.h1Ttitle {
+    background: #FDF1EB;
+    color: #4E4E4E;
+    font-weight: 500;
+    padding: 15px 10px;
+    font-size: 20px;
+    border-bottom: 1px #ECECEC solid;
+}
+.resume p {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.disc {
+    width: 1058px;;
+    border: 1px #ECECEC solid;
+    min-height: 400px;
+    height: auto;
+}
+
+.discContainer {
+    min-width: 1027px;
+    width: 90%;
+    
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px #ECECEC solid;
+
+}
+.discContainer h2 {
+    margin: 15px;
+    font-size: 18px;
+    color: #ED7839;
+    font-weight: 700;
+}
+.divIconsDisc {
+    width: 250px;
+    height: 50px;
+    
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;   
+    
+}
+.discContainer p {
+    width: 626px;
+    margin: 7px 0;
+    
+}
+.newTopicBtn {
+    width: 133px;
+    height: 32px;
+    
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border: none;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: 15px;
+    font-weight: 700;
+    color:  white;
+    transform: translate( 0, 20px);
+}
+.comentsDiv {
+    width: 100%;
+    height: auto;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+.comment {
+    min-width: 1028px;
+    width: 95%;
+    height: 150px;
+
+    margin: 17px 0;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 17px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.commentTitle h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ED7839;
+    
+}
+.commentTitle p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #5C5C5C;}
+
+.textComment {
+    width: 90%;
+    height: 40px;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #4d4d4d;
+    margin: 5px 0;
+}
+.likedDiv {
+    width: 160px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    
+
+}
+.likedDiv button {
+    width: 27px;
+    height: 19px;
+    background: #ED7839;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dots {
+    width: 4px;
+    height: 24px;
+}
+
+footer {
+   margin-top: 40px;
+}
