@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/styles/global.css">
-    <link rel="stylesheet" href="public/styles/trabalhos.css">    
+    <link rel="stylesheet" href="public/styles/trabalhos.css">  
+    <link rel="stylesheet" href="public/styles/global.css">  
     
     <title>Document</title>
 </head>
@@ -120,69 +120,135 @@
             </div>
         </div>
 
-        <div class="resume">
-            <h1 class="h1Ttitle">Resumo</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant... ver mais
-            </p>
+        <div class="resume" onclick="openDiv()">
+            <h1 class="h1Title"  >Resumo</h1>
+            <div class="textResume textClosed">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant... 
+                
+                <span class="colorOrangeLink">ver mais</span>
+                </p>
+            </div>
         </div>
 
         <div class="disc">
 
-            <h1 class="h1Ttitle"> Discussões </h1>
+            <h1 class="h1Title"> Discussões </h1>
             
-            <div class="discContainer">
-                <h2>Compartilhe suas ideias ou dúvidas com os autores!</h2>
-                <div class="divIconsDisc">
-                    <img src="public/images/icone1.png" alt="">
-                    <img src="public/images/icone2.png" alt="">
-                    <img src="public/images/icone3.png" alt="">
+            <div class="boxDisc">
+                <div class="containerDiscurssoes">
+
+                    <h2>Compartilhe suas ideias ou dúvidas com os autores!</h2>
+                    
+                    <div class="divIconsDisc">
+                        <img src="public/images/icone1.png" alt="">
+                        <img src="public/images/icone2.png" alt="">
+                        <img src="public/images/icone3.png" alt="">
+                    </div>
+                    
+                    <p>
+                        Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!
+                    </p>
+                    
+                    <button class="newTopicBtn" onclick="newTopic ()">
+                        <img src="public/images/iconCriar.png" alt=""> criar tópico 
+                    </button>
+
                 </div>
-                <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
-                <button class="newTopicBtn">
-                     <img src="public/images/iconCriar.png" alt=""> criar tópico 
-                </button>
+                <div class="containerSugestion divOff">
+
+                    <span class="titleSugestion ">
+                        Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!
+                    </span>
+                    <form action="" class="formSugestions ">
+                        <div class="boxAssunto">
+                            <h3 class="titleInput">Assunto</h3>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="boxConteudo">
+                            <h3 class="titleInput">
+                                Contéudo
+                            </h3>
+                            <input type="text"/>
+
+                            <div class="sendBar">
+                                <div class="sendBoldItalic">
+                                    <img src="public/images/bold.png" alt="">
+                                    <img src="public/images/italic.png" alt="">
+                                </div>
+                                <button class="sendBtn" onclick="sendTopic()"> Enviar </button>
+                            </div>
+
+                            
+                        </div>
+                    </form>
+                </div>
+
+                <div class="containerFinished divOff">
+
+                    <h2>Compartilhe suas ideias ou dúvidas com os autores!</h2>
+                    
+                    <div class="commentSucess">
+                        <span>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</span>
+                    </div>
+                    
+                    <a href="/">
+                        Descubra outros trabalhos!
+                    </a>
+                    
+                    <button class="newTopicBtn btnBig" onclick="newTopic ()">
+                        criar novo tópico 
+                    </button>
+
+                </div>
+
+
+
             </div>
 
-            <div class="comentsDiv">
+            <div class="comentsDiv">               
+
                 <div class="comment">
-                    <div class="commentTitle">
-                        <h2>Assunto da pergunta aparece aqui</h2>
-                        <p>Carlos Henrique Santos</p>
-                    </div>
-                    <span class="textComment">
-                        Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
-                    </span>
 
-                    <div class="likedDiv">
-                        <img src="/public/images/dots.svg" alt="" class="dots">
-                        <button>
-                            <img src="public/images/liked.png" alt="">
-                        </button>
-                        <span>1 like</span>
-                        <span>1 resposta </span>
-                    </div>
+                    <div class="contentComment">
+                        <div class="commentTitle">
+                            <h2>Assunto da pergunta aparece aqui</h2>
+                            <p>Carlos Henrique Santos</p>
+                        </div>
+                        <span class="textComment">
+                            Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
+                        </span>
 
+                        <div class="likedDiv">
+                            <img src="/public/images/dots.svg" alt="" class="dots">
+                            <button>
+                                <img src="public/images/liked.png" alt="">
+                            </button>
+                            <span>1 like</span>
+                            <span>1 resposta </span>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="comment">
-                    <div class="commentTitle">
-                        <h2>Assunto da pergunta aparece aqui</h2>
-                        <p>Carlos Henrique Santos</p>
-                    </div>
-                    <span class="textComment">
-                        Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
-                    </span>
+                    <div class="contentComment">    
+                        <div class="commentTitle">
+                            <h2>Assunto da pergunta aparece aqui</h2>
+                            <p>Carlos Henrique Santos</p>
+                        </div>
+                        <span class="textComment">
+                            Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
+                        </span>
 
-                    <div class="likedDiv">
-                        <img src="/public/images/dots.svg" alt="" class="dots">
-                        <button>
-                            <img src="public/images/liked.png" alt="">
-                        </button>
-                        <span>1 like</span>
-                        <span>1 resposta </span>
+                        <div class="likedDiv">
+                            <img src="/public/images/dots.svg" alt="" class="dots">
+                            <button>
+                                <img src="public/images/liked.png" alt="">
+                            </button>
+                            <span>1 like</span>
+                            <span>1 resposta </span>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -192,5 +258,6 @@
         </footer>
 
     </main>
+    <script src="public/js/trabalhos.js"></script>
 </body>
 </html>

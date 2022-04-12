@@ -41,3 +41,15 @@ body{
 a {
     color: #725C5C;
 }
+
+.divOff {
+    display: none;
+}
+.divOn {
+    display: flex;
+}
+
+.colorOrangeLink {
+    color: #ED7839;
+    text-decoration: underline;
+}

@@ -56,6 +56,7 @@
 
 #main {
     width: 100%;
+    min-width: 1146px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -327,18 +328,29 @@ header {
     width: 1058px;    
     border: 1px #ECECEC solid;
     margin: 30px 0;
+    cursor: pointer;
 }
 
-.h1Ttitle {
+.h1Title {
     background: #FDF1EB;
     color: #4E4E4E;
     font-weight: 500;
-    padding: 15px 10px;
+    padding: 12px 10px;
     font-size: 20px;
     border-bottom: 1px #ECECEC solid;
 }
+.textResume{
+    
+    min-height: 150px;
+    height: auto;
+    padding: 17px;
+    font-size: 14px;
+    line-height: 22px;
+   
+}
 .resume p {
-    padding: 15px;
+
+    margin-bottom: 15px;
     font-size: 14px;
     line-height: 22px;
 }
@@ -348,13 +360,15 @@ header {
     border: 1px #ECECEC solid;
     min-height: 400px;
     height: auto;
+    
 }
 
-.discContainer {
+.boxDisc {
     min-width: 1027px;
     width: 90%;
     
-    height: 220px;
+    min-height: 210px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -362,7 +376,7 @@ header {
     border-bottom: 1px #ECECEC solid;
 
 }
-.discContainer h2 {
+.boxDisc h2 {
     margin: 15px;
     font-size: 18px;
     color: #ED7839;
@@ -377,14 +391,27 @@ header {
     justify-content: space-between;   
     
 }
-.discContainer p {
+.boxDisc p {
     width: 626px;
     margin: 7px 0;
     
 }
+
+.containerDiscurssoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerDiscurssoes p {
+    width: 626px;
+    height: 40px;
+    text-align: center;
+}
+
 .newTopicBtn {
     width: 133px;
     height: 32px;
+    cursor: pointer;
     
     background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
@@ -398,28 +425,185 @@ header {
     font-size: 15px;
     font-weight: 700;
     color:  white;
-    transform: translate( 0, 20px);
+    transform: translate( 0, 16px);
 }
+.btnBig {
+    width: 235px;
+}
+.containerSugestion {
+    width: 100%; 
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.formSugestions {
+    width: 100%;
+    height: auto;
+}
+.titleSugestion {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px auto;
+}
+.boxAssunto {
+    
+    width: 100%;
+    margin-top: 7px;
+}
+.boxAssunto input{
+    width: 100%;
+    height: 39px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    margin-top: 1px;
+}
+
+.titleInput {
+    font-size: 16px;
+    color: #ED7839;
+    font-weight: 700;
+}
+
+.boxConteudo {
+    margin-top: 10px;
+    width: 100%;
+}
+.boxConteudo input {
+    width: 100%;
+    height: 82px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    margin-top: 1px;
+}
+
+.sendBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 31px;
+
+    background: #EAF1F2;
+
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.sendBoldItalic {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.sendBoldItalic img {
+    width: 12;
+    height: 10px;
+    cursor: pointer;
+}
+
+.sendBtn {
+    cursor: pointer;
+    width: 205px;
+    height: 100%;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    border: none;
+
+    color: white;
+    font-size: 15px;
+
+}
+
+.containerFinished {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerFinished a {
+    width: 626px;
+    height: 40px;
+    text-align: center;
+    color: #F48F44;
+    
+}
+.containerFinished a:hover {
+    text-decoration: underline;
+}
+.commentSucess {
+    height: 50px;
+    margin: 30px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .comentsDiv {
     width: 100%;
     height: auto;
-    margin: 30px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 10px;
 }   
+.awaitAccept {
+    width: 61.3%;
+    min-width: 1028px;
+    height: 150px;
+    
+    position: absolute;
+    background: #dddddde0;
+    border: 1px solid #E7E7E7;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.awaitAccept img {
+    width: 23px;
+    height: 25px;
+}
+.awaitAccept span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #707070;
+    margin: 8px 0;
+}
+
+.awaitAccept a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ED7839;
+    text-decoration: underline;
+
+}
 .comment {
     min-width: 1028px;
     width: 95%;
     height: 150px;
 
-    margin: 17px 0;
+    margin-top: 17px;
     background: #FFFFFF;
     border: 1px solid #E7E7E7;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    padding: 17px 24px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contentComment {
+    width: 100%;
+    height: 100%;
+    padding: 15px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
