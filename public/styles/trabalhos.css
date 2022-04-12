@@ -715,6 +715,7 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 10px;
 }
 
 .answerTitleDiv {
@@ -728,13 +729,15 @@ header {
 .answerTitleDiv h1 {
     font-size: 12px;
     font-weight: 700px;
-    color: #5C5C5C
+    color: #5C5C5C;
+    margin-bottom: 10px;
 }
 
 .answerTitleDiv span {
     font-size: 14px;
     font-weight: 700;
     color: #ED7839;
+    padding: 10px;
 }
 
 .answerTitleDiv div {
@@ -753,6 +756,7 @@ header {
 
     font-size: 14px;
     font-weight: 400;
+    padding: 10px 0;
 }
 
 .authorText {
@@ -770,6 +774,7 @@ header {
 
 footer {
    margin-top: 40px;
+   max-width: 1100px;
    width: 95%;
 }
 
