@@ -1,6 +1,8 @@
 .Aside {
     
-    width: 220px;
+    max-width: 220px;
+    width: 20%;
+    min-width: 90px;
     min-height: 100vh;
     height: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
@@ -25,7 +27,8 @@
 .slacaLogo {
     
     width: 100%;
-    height: 258px;
+    max-height: 258px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,11 +38,13 @@
     max-width: 220px;
     width: 100%;
     max-height: 250px;
+    height: auto;
 }
 
 .slacaUl li {
     
-    width: 220px;
+    max-width: 220px;
+    width: 100%;
     height: 33px;
 
     font-size: 15px;
@@ -49,14 +54,14 @@
 
     display: flex;
     align-items: center;
-    padding-left: 24px; 
+    padding-left: min(24px, 10%); 
     
     border-bottom: 2px solid rgb(231, 231, 231);
 }
 
 #main {
     width: 100%;
-    min-width: 1146px;
+    
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -65,7 +70,7 @@
 }
 
 header {
-    min-width: 1146px;
+    
     width: 100%;
     height: 68px;
     background: #FDF1EB;
@@ -74,7 +79,8 @@ header {
     align-items: center;
 }
 .titleHeader {
-    width: 643px;
+    max-width: 643px;
+    width: 60%;
 }
 
 .titleHeader h1 {
@@ -96,7 +102,10 @@ header {
     border: 1px solid #CCCCCC;
     border-radius: 3px;
     background-color: transparent;
-    
+    background-image: url('/public/images/language.png');
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 5px;
     padding-left: 31px;
 }
 .perfil {
@@ -155,8 +164,9 @@ header {
 .container {
     
     
-    width: 1058px;
-    min-height: 489px;
+    max-width: 1058px;
+    width: 95%;
+    min-height: 200px;
     height: auto;
     margin: 20px 0;
     display: flex;
@@ -165,7 +175,9 @@ header {
 }
 
 .containerLeft {
-    width: 786px;
+    
+    max-width: 786px;
+    width: 74%;
     margin-right: 30px;
 }
 
@@ -176,7 +188,7 @@ header {
     font-weight: 900;
     letter-spacing: 10%;
     line-height: 25px;
-    min-width: 786px;
+    max-width: 786px;
     
     margin-bottom: 19px;
 }
@@ -186,19 +198,26 @@ header {
     height: 439px;
 
 }
+
+.imagemVideo {
+    width: 100%;
+    height: 100%;
+}
 .divText-absolut {
     position: absolute;
-    width: 783px;
+    max-width: 783px;
+    width: 58.5%;
     height: 439px;
     padding: 35px 35px;
     background: rgba(141, 53, 6, 0.5);
 }
 .divText-title {
+    width: 90%;
     font-size: 24px;
     font-weight: 900;
     color: white;
     line-height: 25px;
-    margin-bottom: 215px;
+    margin-bottom: 190px;
 }
 .divText-nameDiv {
 
@@ -232,7 +251,9 @@ header {
 }
 
 .containerRight {
-    width: 242px;
+    max-width: 242px;
+    width: 23%;
+    
     height: 512px;
     
     text-align: right;
@@ -281,6 +302,7 @@ header {
 }
 .detalhes {
     width: 100%;
+    min-width: 150px;
     height: 439px;
     text-align: left;
 
@@ -298,7 +320,8 @@ header {
 }
 .detalhesSpan {
     
-    width: 212px;
+    max-width: 212px;
+    width: 90%;
     height: 364px;
     margin: 15px;
     padding: 5px;
@@ -326,7 +349,8 @@ header {
 }
 
 .resume {
-    width: 1058px;    
+    max-width: 1058px;
+    width: 95%;    
     border: 1px #ECECEC solid;
     margin: 30px 0;
     cursor: pointer;
@@ -357,7 +381,8 @@ header {
 }
 
 .disc {
-    width: 1058px;;
+    max-width: 1058px;
+    width: 95%;
     border: 1px #ECECEC solid;
     min-height: 400px;
     height: auto;
@@ -365,7 +390,7 @@ header {
 }
 
 .boxDisc {
-    min-width: 1027px;
+    max-width: 1027px;
     width: 90%;
     
     min-height: 210px;
@@ -555,9 +580,10 @@ header {
     padding: 10px;
 }   
 .awaitAccept {
-    width: 61.3%;
-    min-width: 1028px;
-    height: 150px;
+    width: 73%;
+    max-width: 983px;
+    min-height: 150px;
+    height: 16%;
     
     position: absolute;
     background: #dddddde0;
@@ -587,7 +613,7 @@ header {
 
 }
 .comment {
-    min-width: 1028px;
+    max-width: 1028px;
     width: 95%;
     min-height: 150px;
     height: auto;
@@ -627,7 +653,8 @@ header {
 
 .textComment {
     width: 90%;
-    height: 40px;
+    min-height: 40px;
+    height: auto;
 
     font-size: 14px;
     font-weight: 400;
@@ -716,4 +743,8 @@ header {
 
 footer {
    margin-top: 40px;
+   width: 95%;
+}
+footer img {
+    width: 95%;
 }

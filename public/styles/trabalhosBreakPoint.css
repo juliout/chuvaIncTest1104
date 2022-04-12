@@ -1,0 +1,144 @@
+@media (max-width:1325px) {
+
+    aside {
+        width: 200px;
+    }
+    .slacaUl li {
+        font-size: 80%;
+    }
+    .titleSlaca {
+        font-size: 25px;
+    }
+    
+    .titleHeader h1 {
+        font-size: 18px;
+        font-weight: 700;
+    } 
+    .titleHeader h2 {
+        font-size: 11px
+    }
+    .containerLeft-title {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .awaitAccept {
+        width: 73.5%;
+    }
+}
+
+@media (max-width: 1265px) {
+    .divText-title {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1173px) {
+    .language {
+        background-position-x: 0px;
+        background-position-y: 2.5px;
+    }
+    .slacaUl li {
+        font-size: 60%;
+    }
+    .containerRight h2 {
+        font-size: 10px;
+    }
+    
+    .containerLeft-title {
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    .divText-names h1{
+        font-size: 25px;
+    }
+    .divText-names h2{
+        font-size: 25px;
+    }
+    .titleSlaca {
+        font-size: 20px;
+    }
+
+    .containerDiscurssoes p {
+        font-size: 70%;
+        width: 60%;
+    }
+    .imagemVideo  { 
+        height: 80%;
+    }
+    .divText-absolut {
+        width: 58.2%;
+        height: 350px;
+
+    }
+    .language {
+        width: 80px;
+        height: 30px;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    .divText-title {
+        height: 40px;
+        margin-bottom: 130px;
+        font-size: 17px;
+    }
+    .divText-names h1 {
+        font-size: 20px;
+    }
+    .divText-names h2 {
+        font-size: 14px;
+    }
+    .container {
+        height: 400px;
+        margin-top: 30px;
+    }
+    .detalhes {
+        height: 350px;
+    }
+    .detalhesSpan {
+        height: 270px;
+    }
+    .containerRight {
+        height: 400px;
+    }
+    .detalhes h1 {
+        height: 30px;
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+    .videoBg {
+        height: 400px;
+    }
+    .imagemVideo {
+        height: 350px;
+    }
+}
+@media (max-width: 1000px) {
+    .titleSlaca {
+        height: 75px;
+    }
+    header {
+        height: 75px;
+    }
+    .titleHeader h1 {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .detalhesSpan {
+        width: 90%;
+        padding: 0;
+    }
+    .awaitAccept {
+        height: 17.5%;
+    }
+    .commentSucess {
+        font-size: 12px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 758px) {
+    .awaitAccept {
+        min-width: 543.2px;
+    }
+}
