@@ -588,7 +588,10 @@ header {
 .comment {
     min-width: 1028px;
     width: 95%;
-    height: 150px;
+    min-height: 150px;
+    height: auto;
+
+    cursor: pointer;
 
     margin-top: 17px;
     background: #FFFFFF;
@@ -607,6 +610,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-bottom: 1px solid #E7E7E7;
 }
 
 .commentTitle h2 {
@@ -650,6 +654,58 @@ header {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+.containerAnswer {
+    width: 100%;
+    height: auto;
+}
+.boxAnswer {
+    width: 100%;
+    min-height: 131px;
+    border-bottom: 1px solid #E7E7E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.answerTitleDiv {
+    height: 20px;
+    width: 97%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.answerTitleDiv h1 {
+    font-size: 12px;
+    font-weight: 700px;
+    color: #5C5C5C
+}
+.answerTitleDiv span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ED7839;
+}
+.answerTitleDiv div {
+    display: flex;
+    align-items: center;
+}
+.answerTitleDiv img {
+    margin-left: 25px;
+}
+.textAnswer {
+    width: 97%;
+    min-height: 60px;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.authorText {
+    background: #F8F8F8;
+}
+.coAuthorText {
+    background: #F8F8F8;
 }
 
 .dots {

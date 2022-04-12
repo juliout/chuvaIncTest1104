@@ -96,3 +96,11 @@ function sendTopic() {
     )
     
 }
+
+//abre os comentarios
+
+const containerAnswer = document.querySelector('.containerAnswer')
+
+function OpenComment() {
+    containerAnswer.classList.toggle('divOff')
+}
